@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Loging\" />
+    <Folder Include="Caching\" />
+    <Folder Include="Authorization\" />
+    <Folder Include="Nodification\" />
+    <Folder Include="Authentication\" />
+    <Folder Include="EmailOperation\" />
+    <Folder Include="SmsOperations\" />
+    <Folder Include="Persistance\" />
+    <Folder Include="Sockets\" />
+  </ItemGroup>
+
+</Project>
