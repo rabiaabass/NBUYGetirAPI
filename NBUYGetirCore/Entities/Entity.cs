@@ -7,9 +7,11 @@ using System.Threading.Tasks;
 
 namespace NBUYGetirCore.Entities
 {
-    
+
     public abstract class Entity : IEntity
     {
+        public string Id { get; private set; }
+
         //...
         private List<IDomainEvent> _domainEvents = new List<IDomainEvent>();
         public IReadOnlyList<IDomainEvent> DomainEvents => _domainEvents;
@@ -19,6 +21,12 @@ namespace NBUYGetirCore.Entities
         {
             _domainEvents.Add(@event);
         }
+
+        public Entity()
+        {
+
+        }
+
 
     }
 }
