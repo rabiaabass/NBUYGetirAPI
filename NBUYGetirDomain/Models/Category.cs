@@ -23,11 +23,18 @@ namespace NBUYGetirDomain.Models
         public IReadOnlyCollection<Category> SubCategories => _subCategories;
         public IReadOnlyCollection<Product> Products => _products;
 
+
         public void AddSubCategory(Category category)
         {
             if (string.IsNullOrEmpty(category.Name))
             {
                 throw new Exception("kategori ismi boş geçilemez");
+            }
+
+            if (category.IsTopLevel)
+            {
+                throw new Exception("Top level kategori başka bir kategori altına atılamaz.");
+
             }
             _subCategories.Add(category);
         }

@@ -14,25 +14,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDb", "MongoDb", "{2B29
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dapper", "Dapper", "{4F7603EC-E652-41FC-A32F-7326CE74219D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUYGetirEFCore", "NBUYGetirEFCore\NBUYGetirEFCore.csproj", "{C5CBE51D-9C7E-47B2-AA50-D11001C395FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBUYGetirEFCore", "NBUYGetirEFCore\NBUYGetirEFCore.csproj", "{C5CBE51D-9C7E-47B2-AA50-D11001C395FB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{2627CF13-120F-469A-8BE8-19F0DFB0E189}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe2.txt = ReadMe2.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUYGetirDomain", "NBUYGetirDomain\NBUYGetirDomain.csproj", "{AD932B87-85FC-4566-8302-9742E67E383C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBUYGetirDomain", "NBUYGetirDomain\NBUYGetirDomain.csproj", "{AD932B87-85FC-4566-8302-9742E67E383C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F21640B7-5760-45A4-A94D-0DEE99F2CF78}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUYGetirInfrastructure", "NBUYGetirInfrastructure\NBUYGetirInfrastructure.csproj", "{66FD1084-0A43-4A67-A911-3BF9B7706A82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBUYGetirInfrastructure", "NBUYGetirInfrastructure\NBUYGetirInfrastructure.csproj", "{66FD1084-0A43-4A67-A911-3BF9B7706A82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{5AB8A4BE-1EE4-49F0-AB05-6A336BA4C0EB}"
 	ProjectSection(SolutionItems) = preProject
 		ReadMe4.txt = ReadMe4.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUYGetirApplication", "NBUYGetirApplication\NBUYGetirApplication.csproj", "{26513412-2975-4202-820C-0372DD897B7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBUYGetirApplication", "NBUYGetirApplication\NBUYGetirApplication.csproj", "{26513412-2975-4202-820C-0372DD897B7F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{331E9C95-B271-489E-9452-AB00D1896F8F}"
 EndProject
@@ -42,9 +42,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WEB", "WEB", "{49C9DF64-B2F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{C19D9828-A78C-4D3D-A66C-9992865BB431}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUYGetirAPI", "NBUYGetirAPI\NBUYGetirAPI.csproj", "{F34541A2-6CC9-4D53-B74E-3F2E5E796737}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBUYGetirAPI", "NBUYGetirAPI\NBUYGetirAPI.csproj", "{F34541A2-6CC9-4D53-B74E-3F2E5E796737}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUYGetirCore", "NBUYGetirCore\NBUYGetirCore.csproj", "{F5397713-2C21-47A0-A864-4491ED2B5D25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NBUYGetirCore", "NBUYGetirCore\NBUYGetirCore.csproj", "{F5397713-2C21-47A0-A864-4491ED2B5D25}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NBUYGetirCommon", "NBUYGetirCommon\NBUYGetirCommon.csproj", "{E22FD2FD-ADB9-4559-B268-5622EBF48478}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +78,10 @@ Global
 		{F5397713-2C21-47A0-A864-4491ED2B5D25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5397713-2C21-47A0-A864-4491ED2B5D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5397713-2C21-47A0-A864-4491ED2B5D25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E22FD2FD-ADB9-4559-B268-5622EBF48478}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E22FD2FD-ADB9-4559-B268-5622EBF48478}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E22FD2FD-ADB9-4559-B268-5622EBF48478}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E22FD2FD-ADB9-4559-B268-5622EBF48478}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
